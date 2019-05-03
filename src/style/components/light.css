@@ -1,0 +1,17 @@
+.light {
+  background-color: red;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 5px auto;
+  opacity: 0.5; }
+  .light.red {
+    background-color: red; }
+  .light.yellow {
+    background-color: yellow; }
+  .light.green {
+    background-color: green; }
+  .light.no-opacity {
+    opacity: 1; }

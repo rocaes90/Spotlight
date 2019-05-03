@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e9ebee; }
+  body .container {
+    background-color: #ffffff;
+    padding: 10px; }
+    body .container .spotlight {
+      margin: auto;
+      width: 120px;
+      height: auto; }
+      body .container .spotlight .title {
+        text-align: center; }
+      body .container .spotlight .lights-container {
+        text-align: center;
+        background-color: #373738;
+        padding: 5px 0; }
+        body .container .spotlight .lights-container button:focus {
+          outline: 0; }
+
+.light {
+  background-color: red;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 5px auto;
+  opacity: 0.5; }
+  .light.red {
+    background-color: red; }
+  .light.yellow {
+    background-color: yellow; }
+  .light.green {
+    background-color: green; }
+  .light.no-opacity {
+    opacity: 1; }
